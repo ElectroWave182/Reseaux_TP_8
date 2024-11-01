@@ -1,0 +1,41 @@
+Étape 1 : Déterminez le nombre de sous-réseaux nécessaires.
+---------
+
+
+5 sous-réseaux sont nécessaires dans cette topologie.
+(1 pour chaque commutateur, et 1 pour la connexion entre les routeurs)
+
+
+
+Étape 2 : Déterminez les informations masque de sous-réseau pour chaque sous-réseau.
+---------
+
+
+Switch 1 -
+
+255.255.255.240
+Soit une plage de 14 hôtes.
+
+
+Switch 2 -
+
+255.255.255.224
+Soit une plage de 30 hôtes.
+
+
+Switch 3 -
+
+255.255.255.248
+Soit une plage de 6 hôtes.
+
+
+Switch 4 -
+
+255.255.255.192
+Soit une plage de 62 hôtes.
+
+
+WAN -
+
+255.255.255.252
+Soit une plage de 2 hôtes.
